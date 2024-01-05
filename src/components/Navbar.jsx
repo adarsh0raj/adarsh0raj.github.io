@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -49,9 +50,18 @@ const Navbar = () => {
               <span className='sm:block hidden'> Raj</span>
             </p>
           </Link>
+          <span className="mx-[5px] text-white text-[18px] font-bold cursor-pointer flex items-center">
+            <a
+              href='https://www.linkedin.com/in/adarsh-raj-319418192/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FontAwesomeIcon icon={faLinkedin}/>
+            </a>
+          </span>
 
           <button
-            className="sm:mx-[50px] mx-[10px] cursor-pointer border-2 border-white rounded-lg px-4 py-2 bg-transparent hover:bg-white hover:text-primary transition-all duration-300"
+            className="sm:mx-[30px] mx-[10px] cursor-pointer border-2 border-white rounded-lg px-4 py-1 bg-transparent hover:bg-white hover:text-primary transition-all duration-300"
           >
             <a
               href='/adarshraj_resume.pdf'
