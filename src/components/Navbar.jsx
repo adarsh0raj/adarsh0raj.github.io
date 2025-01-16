@@ -64,7 +64,7 @@ const Navbar = () => {
             className="sm:mx-[30px] mx-[10px] cursor-pointer border-2 border-white rounded-lg px-4 py-1 bg-transparent hover:bg-white hover:text-primary transition-all duration-300"
           >
             <a
-              href='/adarshraj_resume.pdf'
+              href='/adarsh_resume_dev.pdf'
               target='_blank'
               rel='noreferrer'
               className=''
